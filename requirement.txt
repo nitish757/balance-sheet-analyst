@@ -1,0 +1,5 @@
+streamlit
+pandas
+pdfplumber
+plotly
+openai>=1.51.0
