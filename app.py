@@ -8,7 +8,7 @@ from parser import extract_tables_from_pdf
 # Streamlit UI Setup
 # -----------------------------
 st.set_page_config(page_title="Balance Sheet Analyzer", layout="wide")
-st.title("📊 Balance Sheet Analyzer")
+st.title("📊 Balance Sheet Analyzer (MVP)")
 st.write("Upload Reliance Annual Report PDF → Extract Financials → Visualize → Ask AI")
 
 uploaded = st.file_uploader("Upload PDF", type=["pdf"])
